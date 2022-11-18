@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>io.github.jpenren</groupId>
 	<artifactId>thymeleaf-spring-data-dialect</artifactId>
-	<version>3.5.0</version>
+	<version>3.6.0</version>
 	
 	<name>Thymeleaf Spring Data Dialect</name>
 	<description>Data pagination made easy with Thymeleaf and Spring Data</description>
@@ -150,13 +150,14 @@
 					</execution>
 				</executions>
 			</plugin>
+			<!--
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-gpg-plugin</artifactId>
 				<version>3.0.1</version>
-				<!--
+				< ! - -
 				<version>1.6</version>
-				-->
+				- - >
 				<executions>
 					<execution>
 						<id>sign-artifacts</id>
@@ -167,6 +168,7 @@
 					</execution>
 				</executions>
 			</plugin>
+			-->
 		</plugins>
 	</build>
 
